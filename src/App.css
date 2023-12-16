@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+body{
+padding: 0px 30px;
+justify-content: space-between;
+background-color: rgb(34, 33, 33);
+}
+.nav{
+  width: 600px;
+  margin-right: 50px;
+  gap: 8px;
+justify-content: end;
+
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.nav li{
+  list-style: none;
+  
+  align-items: center;
+ 
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.nav li a{
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: black;
+  font-weight: 500;
+  color: rgb(65, 60, 59);
+  font-variant-caps: petite-caps;
+  
+}
+.hearder{
+  width: 1000px;
+  margin: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+  /* background:"linearGradient(['50deg', 'rgba(255, 25, 0, 0.962)' ,'rgb(159, 255, 4)'])", */
+}
+button{
+  padding: 6px 22px ;
+  font-size: 18px;
+background-color: transparent;
+border: 1px solid rgb(202, 67, 14);
+color: rgb(103, 103, 104);
+}
+.lorem{
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  display: block;
+}
+.addTocard{
+  position: absolute;
+  right: -20px;
+  bottom: 30px;
+  padding: 8px 15px;
+  border: none;
+  background-color: red;
   color: white;
+  font-size: 12px;
 }
-
-.App-link {
-  color: #61dafb;
+.shere{
+  width: 80px;
+  height: 150px;
+  position: absolute;
+  margin-top: 20px;
+  text-align: center;
 }
+.shere a{
+  display: block;
+  margin-bottom: 10px;
+}
+.first{
+  color: rgb(147, 142, 142);
+  text-align: center;
+  font-weight: 400;
+ margin-bottom: 10px;
+  
+}
+.shere a i{
+  color: rgb(147, 142, 142);
+  text-align: center;
+  font-weight: 400;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
